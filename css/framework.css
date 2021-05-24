@@ -33,4 +33,29 @@ header .header__logo .header__logo-link .logo-style {
 .footer .footer__logo a img {
   margin: auto 35px;
 }
+
+.footer .app a {
+  display: inline-block;
+  height: 50%;
+  margin: 10px 1%;
+  width: 45%;
+  overflow: hidden;
+}
+
+.footer .footer__copyright-text {
+  font-size: 17px;
+  text-align: center;
+}
+
+.footer .footer__copyright-text p {
+  margin-top: 70px;
+}
+
+.footer .footer__copyright-text p a {
+  text-decoration: none;
+}
+
+.footer .footer__copyright-text p a span {
+  font-weight: bold;
+}
 /*# sourceMappingURL=framework.css.map */
