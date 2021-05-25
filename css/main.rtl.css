@@ -729,13 +729,10 @@ dl, ol, ul {
 
 @-webkit-keyframes animate-left {
   0% {
-            opacity: 0;
-            -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-            -moz-transform: translateX(100%);
-            -ms-transform: translateX(100%);
-            -o-transform: translateX(100%);
-}
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px);
@@ -745,13 +742,10 @@ dl, ol, ul {
 
 @keyframes animate-left {
   0% {
-            opacity: 0;
-            -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-            -moz-transform: translateX(100%);
-            -ms-transform: translateX(100%);
-            -o-transform: translateX(100%);
-}
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px);
@@ -1577,6 +1571,7 @@ button.close {
 .product__label {
   position: absolute;
   top: 10px;
+  right: 10px;
   padding: 0 14px;
   font-size: 14px;
   color: #fff;
@@ -1595,7 +1590,7 @@ button.close {
 .product__counter-box {
   position: absolute;
   top: 50%;
-  right: 7px;
+  left: 7px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   text-align: center;
@@ -7491,4 +7486,4 @@ table tbody > tr td a:hover {
 .border-top-1 {
   border-top: 1px solid #ddd;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.rtl.css.map */
